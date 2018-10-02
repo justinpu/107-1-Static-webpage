@@ -8,4 +8,4 @@ pokemon.html
 
 week03:tku60.html
 
-week04:ttt.html
+week04:ttt.html  blog.html
