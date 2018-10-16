@@ -12,8 +12,8 @@
 ###   [tku60.html](https://github.com/justinpu/107-1-Static-webpage/tree/master/w03)
 
 # week04
-###   [ ttt.html ]  
-###  [blog.html]
+###   [ ttt.html](https://github.com/justinpu/107-1-Static-webpage/tree/master/w04)
+###  [blog.html](https://github.com/justinpu/107-1-Static-webpage/tree/master/w04)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzNDg4MTg0XX0=
+eyJoaXN0b3J5IjpbMTE2MjIxNTY1Nl19
 -->
