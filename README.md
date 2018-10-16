@@ -5,8 +5,8 @@
 ### *  [ intro.html ](https://github.com/justinpu/107-1-Static-webpage/tree/master/w01)
 
 # week02
-### * table.html  
-### * pokemon.html
+### * [table.html ] 
+### * myclass.html
 
 # week03 
 ### * tku60.html
@@ -15,5 +15,5 @@
 ### * ttt.html  
 ### * blog.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjExNTc1NV19
+eyJoaXN0b3J5IjpbLTE5MTYzMjg2NDRdfQ==
 -->
