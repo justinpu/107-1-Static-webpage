@@ -2,7 +2,7 @@
 
 
 # week01
-###  * [ intro.html ](https://github.com/justinpu/107-1-Static-webpage/tree/master/w01)
+### *[ intro.html ](https://github.com/justinpu/107-1-Static-webpage/tree/master/w01)
 
 # week02
 ### * [table.html ](https://github.com/justinpu/107-1-Static-webpage/tree/master/w02)
@@ -15,5 +15,5 @@
 ### *  [ ttt.html]  (https://github.com/justinpu/107-1-Static-webpage/tree/master/w05/imagegallery)
 ### * [blog.html]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NTg5OTQ4XX0=
+eyJoaXN0b3J5IjpbLTg4MjUzMTU2OF19
 -->
