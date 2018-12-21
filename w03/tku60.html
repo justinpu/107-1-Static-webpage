@@ -1,78 +1,145 @@
+<!doctype>
 <html>
-    <head>
-        <title>TKU60TH</title>
-        <meta charset="uf-8">
-        <style>
-            #container {
-            width: 930px;
+<head>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+   <title>TKU60</title>
+    <meta charset="utf-8">
+    <style>
+        #container{
+            width: 940px;
             height: 480px;
-            border: 1px solid purple;
-            background-color: bisque;
-            }
-            #player{
-                width: 630px;
-                height: 100%;
-                background-color: #dedede;
-                float:left;
-            }
-            #aside{
-                 width: 300px;
-                height: 100%;
-                background-color: yellow;
-                float: right;
-            }
-            .pic{
-                width:100px;
-                height: 70px
-            }
-            
-        </style>
-        <body>
-            <div id="container">
-               <div id="player">
-                   <iframe width="630" height="100%" src="https://www.youtube.com/embed/RechrtUxfQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-               </div>
-                <div id="aside">
-                  
-                      <table>
-                 <tr>
-                     <td>1</td>
-                     <td><img src="images/TKU1.png" class="pic">/</td>
-                     <td> 淡江大戲《那些淡江教我們的事》part1 </td>
-                 </tr>
-                 
-                  <tr>
-                     <td>1</td>
-                     <td><img src="images/TKU2.png" class="pic">/</td>
-                     <td> 淡江大戲《那些淡江教我們的事》part2 </td>
-                 </tr>
-                 
-                  <tr>
-                     <td>1</td>
-                     <td><img src="images/TKU3.png" class="pic">/</td>
-                     <td> 淡江大戲《那些淡江教我們的事》part3 </td>
-                 </tr>
-                 
-                  <tr>
-                     <td>1</td>
-                     <td><img src="images/TKU4.png" class="pic">/</td>
-                     <td> 淡江大戲《那些淡江教我們的事》part4 </td>
-                 </tr>
-                 
-                  <tr>
-                     <td>1</td>
-                     <td><img src="images/TKU5.png" class="pic">/</td>
-                     <td> 淡江大戲《那些淡江教我們的事》part5 </td>
-                 </tr>
-                 
-             </table>
-                      
-                </div>
-                     
-             </div>
-            
-            
-        </body>
+            border: 3px solid purple;
+            background-color:
+            antiquewhite;
+        }
+        #player{
+            width: 630px;
+            height: 100%;
+            background-color: #f5eaea ;
+            float: left;
+        }
+        #aside{
+            width: 300px;
+            height: 100%;
+            background-color: #7676c3;
+            float: right;
+        }
+        #tkuitem{
+            padding-top: 15px;
+            margin: 4px;
+            background-color:#f08181;
+            cursor:pointer
+        }
         
-    </head>
+        .pic{
+            width: 120px;
+            height: 80px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../207410035.html">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../w01/intro.html">W01</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../w02/table.html">W02</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../w03/tku60.html">W03</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../w04/blog.html">W04(blog)</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../w04/ttt.html">W04(ttt)</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../w05/imagegallery/imagegallery.html">W05(imagegallery)</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../w05/pet/pet.html">W05(pet)</a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../w08/index.html">W08</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+        
+    
+    
+    <div id="container">
+        <div id="player">
+        <iframe width="630px" height="100%" src="https://www.youtube.com/embed/RechrtUxfQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+           <div id="aside">
+           <table  id="tkuitem">
+               <tr>
+                   <td>1</td>
+                   <td>
+                       <img src="images/TKU1.png" class="pic" />
+                   </td>
+                   <td>淡江大戲《那些淡江教我們的事》part1</td>
+               </tr>
+               <tr>
+                   <td>2</td>
+                   <td>
+                       <img src="images/TKU2.png" class="pic" />
+                   </td>
+                   <td>淡江大戲《那些淡江教我們的事》part2</td>
+               </tr>
+               <tr>
+                   <td>3</td>
+                   <td>
+                       <img src="images/TKU3.png" class="pic" />
+                   </td>
+                   <td>淡江大戲《那些淡江教我們的事》part3</td>
+               </tr>
+               <tr>
+                   <td>4</td>
+                   <td>
+                       <img src="images/TKU4.png" class="pic" />
+                   </td>
+                   <td>淡江大戲《那些淡江教我們的事》part4</td>
+               </tr>
+               <tr>
+                   <td>5</td>
+                   <td>
+                       <img src="images/TKU5.png" class="pic" />
+                   </td>
+                   <td>淡江大戲《那些淡江教我們的事》part5</td>
+               </tr>
+               
+           </table>
+            
+          
+        </div>
+    </div>
+</body>
 </html>
